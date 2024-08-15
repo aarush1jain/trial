@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NuxeCorps-For a better life</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        #contacts div{
+            padding: 15px;
+        }
+        caption{
+            font-size:60px;
+            text-align:left;
+            font-weight:1000;
+            font-family:Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+        }
+        #contacts{
+            border: 0px;
+            width: 100%;
+            background-color: black;
+            color: white;
+        }
+        th,td{
+            text-align: center;
+            padding: 15px;
+            border: none;
+        }
+        .cont{
+            display: flex;
+            margin-bottom: 40px;
+        }
+        .cont div{
+            margin: auto; box-shadow: 10px 10px  0px orangered; border: 2px solid black; padding: 20px;
+            background-size: 200%;
+            background-image: linear-gradient(to bottom right, white 0%, rgb(253, 239, 239) 33%,rgb(231, 231, 231),rgb(190, 187, 187) 66%,white 100%);
+            background-position: left;
+            transition: transform 0.5s linear,background-position 1s;
+        }
+        .cont div:hover{
+            transform: scale(1.05);
+            background-position:right;
+        }
+        #head{
+            background-image:url(https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665_960_720.png);
+            background-position: center;
+            margin-bottom: 40px;
+        }
+        #head p{
+            font-size: 62px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 4px;
+            word-spacing: 30px;
+        }
+        #logo{
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+        }
+        nav ul li{
+            padding: 8px 10px;
+            font-size: x-large;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            list-style-type: none;
+        }
+        nav ul li:hover{
+            background-color: rgb(37, 13, 1);
+        }
+        .link{
+            text-decoration: none;
+            color: aqua;
+        }
+        nav ul{
+            background-color: rgb(53, 52, 52);
+            display: flex;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family:'Poppins';
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img id="logo" src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665_960_720.png" alt="logo"></li>
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="#about_us.html"class="link">About Us</a></li>
+            <li><a href="#services"class="link">Services</a></li>
+            <li><a href="#contacts"class="link">Contacts</a></li>
+            <li style="margin-left: auto;"><a href="#login"class="link">Login</a></li>
+        </ul>
+    </nav>
+    <div id="head">
+        <p>SAMPLE HEADING</p>
+        <p style="padding-bottom: 20px; font-size: medium; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing: normal;word-spacing: normal;">some thing related to heading</p>
+    </div>
+    <article>
+        <h3 style="font-weight: 100;">At NexuCorps, we understand that trauma can have a profound impact on a child's life. Our mission is to provide a safe and nurturing environment where children can heal, grow, and discover their full potential. We believe that with the right support, children can transcend their past experiences and achieve incredible things.</h3><br>
+        <h3>How We Help:</h3>
+
+        <h4>Personalized Care:</h4> We tailor our approach to meet the unique needs of each child, providing the emotional and psychological support they need to overcome their trauma.
+        Education & Skills Development: We offer educational programs and skill-building activities that empower children to develop confidence, resilience, and a sense of purpose.
+        Community & Connection: By fostering a sense of belonging and community, we help children build strong, supportive relationships that encourage their growth and well-being.
+
+        <h4>Academic Success:</h4> Many of the children we support have gone on to excel in their studies, earning scholarships and academic awards.
+        Personal Growth: We’ve seen children blossom into confident young adults, overcoming their fears and embracing new opportunities.
+        Community Impact: Some of our program participants have even become advocates for others, using their experiences to inspire and support peers facing similar challenges.
+        At NexuCorps, we’re committed to helping every child not just survive, but thrive. We’re proud of the achievements our kids have made, and we’re excited to see what the future holds for them.
+    </article>
+    <p style="font-size:60px; text-align:left; font-weight:1000; font-family:Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: black;">CONTACTS</p>
+    <footer id="contacts" style="display:flex;">
+        <div>
+            <h4>Numbers</h4>
+            <p>landline:+91</p>
+            <p>Phone 1: 87463 87463</p>
+            <p>Phone 2:77654 43436</p>
+        </div>
+        <div>
+            <h4>E-mail</h4>
+            <p>127-4957600care@nexucorps.com</p>
+            <p>queries@nexucorps.com</p>
+        </div>
+        <div>
+            <h4>Offices</h4>
+            <p>Patel Chowk, Sector-4,Nexucorps-Building</p>
+            <p>Gurugram, Sector-7,Silly-office-spaces,4th floor</p>
+        </div>
+        <div>
+            <h4>Visiting Days</h4>
+            <p>Monday-Friday</p>
+        </div>
+    </footer>
+</body>
+</html>
